@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/gray99">
+
+    <EditText
+        android:id="@+id/register_firstName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/firstName"
+        android:textColorHint="@color/text"
+        android:background="@drawable/background"/>
+
+    <EditText
+        android:id="@+id/register_lastName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/lastName"
+        android:textColorHint="@color/text"
+        android:background="@drawable/background"/>
+
+    <EditText
+        android:id="@+id/register_country"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/country"
+        android:textColorHint="@color/text"
+        android:background="@drawable/background"/>
+
+    <EditText
+        android:id="@+id/register_username"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/registerUsername"
+        android:textColorHint="@color/text"
+        android:background="@drawable/background"/>
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/registerPassword"
+        android:textColorHint="@color/text"
+        android:background="@drawable/background"/>
+
+    <Button
+        android:id="@+id/register_register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button"
+        android:text="@string/login"
+        android:textColor="@color/text"/>
+
+</LinearLayout>

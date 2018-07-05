@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main1_container"
+    tools:context="com.example.woniyoon.assignment10.Activities.MainActivity">
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:textColor="@color/text"/>
+
+    <LinearLayout
+        android:layout_marginTop="450dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/main_login_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:text="@string/login"
+        android:background="@drawable/button"
+        android:textColor="@color/text"/>
+    <Button
+        android:id="@+id/main_register_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/register"
+        android:background="@drawable/button"
+        android:textColor="@color/text"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

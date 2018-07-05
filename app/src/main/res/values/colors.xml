@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FCC875</color>
+    <color name="colorPrimaryDark">#BAA896</color>
+    <color name="colorAccent">#E38B75</color>
+    <color name="text">#4F4A45</color>
+    <color name="putty">#E6CCB5</color>
+    <color name="parchment">#F1DCC9</color>
+    <color name="gray99">#FCFCFC</color>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:text="@string/message_result"
+        android:textColor="@color/text"
+        android:textSize="30dp" />
+
+    <TableLayout
+        android:id="@+id/result_tableLayout"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date : " />
+
+            <TextView
+                android:id="@+id/result_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="dd/mm" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Score : " />
+
+            <TextView
+                android:id="@+id/result_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correct Answers : " />
+
+            <TextView
+                android:id="@+id/result_correct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Wrong Answers : " />
+
+            <TextView
+                android:id="@+id/result_wrong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Skipped Answers : " />
+
+            <TextView
+                android:id="@+id/result_skipped"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="0" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

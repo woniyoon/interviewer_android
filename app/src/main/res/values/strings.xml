@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">INTERVIEW</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="country">Country of Origin</string>
+    <string name="registerUsername">Username (email address)</string>
+    <string name="registerPassword">Password (min 8 letters)</string>
+    <string name="java">Java</string>
+    <string name="sql">SQL</string>
+    <string name="start">Start</string>
+    <string name="result">Result</string>
+    <string name="history">History</string>
+    <string name="logout">Logout</string>
+    <string name="message_result">Test is Over!</string>
+    <string name="empty_history">No History available</string>
+</resources>
